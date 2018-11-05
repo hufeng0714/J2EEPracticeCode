@@ -10,6 +10,7 @@
     <display-name>This is the display name of my J2EE component</display-name>
     <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.LoginServlet</servlet-class>
+    <load-on-startup>10</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>LoginServletService</servlet-name>
@@ -17,6 +18,20 @@
     <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.LoginServletService</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.practice.web.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadPhotoServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.practice.web.UploadPhotoServlet</servlet-class>
+  </servlet>
+
+
 
 
 
@@ -31,6 +46,14 @@
   <servlet-mapping>
     <servlet-name>LoginServletService</servlet-name>
     <url-pattern>/loginService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPhotoServlet</servlet-name>
+    <url-pattern>/uploadPhoto</url-pattern>
   </servlet-mapping>
 
 </web-app>
