@@ -7,28 +7,56 @@
   </servlet>
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.LoginServlet</servlet-class>
     <load-on-startup>10</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>LoginServletService</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.LoginServletService</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>RegisterServlet</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.RegisterServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UploadPhotoServlet</servlet-name>
+    <servlet-class>com.practice.web.UploadPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroAddServlet</servlet-name>
+    <servlet-class>com.practice.web.HeroAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroDeleteServlet</servlet-name>
+    <servlet-class>com.practice.web.HeroDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroEditServlet</servlet-name>
+    <servlet-class>com.practice.web.HeroEditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroUpdateServlet</servlet-name>
+    <servlet-class>com.practice.web.HeroUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroListServlet</servlet-name>
+    <servlet-class>com.practice.web.HeroListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitServlet</servlet-name>
+    <servlet-class>com.practice.web.SubmitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOneServlet</servlet-name>
     <display-name>This is the display name of my J2EE component</display-name>
     <description>This is the description of my J2EE component</description>
-    <servlet-class>com.practice.web.UploadPhotoServlet</servlet-class>
+    <servlet-class>com.practice.web.GetOneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetManyServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.practice.web.GetManyServlet</servlet-class>
   </servlet>
 
 
@@ -54,6 +82,38 @@
   <servlet-mapping>
     <servlet-name>UploadPhotoServlet</servlet-name>
     <url-pattern>/uploadPhoto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroAddServlet</servlet-name>
+    <url-pattern>/addHero</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroDeleteServlet</servlet-name>
+    <url-pattern>/deleteHero</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroEditServlet</servlet-name>
+    <url-pattern>/editHero</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroUpdateServlet</servlet-name>
+    <url-pattern>/updateHero</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroListServlet</servlet-name>
+    <url-pattern>/listHero</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitServlet</servlet-name>
+    <url-pattern>/submitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOneServlet</servlet-name>
+    <url-pattern>/getOneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetManyServlet</servlet-name>
+    <url-pattern>/getManyServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
