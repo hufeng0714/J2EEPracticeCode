@@ -48,16 +48,37 @@
   </servlet>
   <servlet>
     <servlet-name>GetOneServlet</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.GetOneServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GetManyServlet</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <description>This is the description of my J2EE component</description>
     <servlet-class>com.practice.web.GetManyServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>HeroEditServletMVC</servlet-name>
+    <servlet-class>com.j2se.code.HeroEditServletMVC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroAddServletMVC</servlet-name>
+    <servlet-class>com.j2se.code.HeroAddServletMVC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroDeleteServletMVC</servlet-name>
+    <servlet-class>com.j2se.code.HeroDeleteServletMVC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroListServletMVC</servlet-name>
+    <servlet-class>com.j2se.code.HeroListServletMVC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeroUpdateServletMVC</servlet-name>
+    <servlet-class>com.j2se.code.HeroUpdateServletMVC</servlet-class>
+  </servlet>
+
+
+
+
+
 
 
 
@@ -114,6 +135,26 @@
   <servlet-mapping>
     <servlet-name>GetManyServlet</servlet-name>
     <url-pattern>/getManyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroEditServletMVC</servlet-name>
+    <url-pattern>/heroEditServletMVC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroAddServletMVC</servlet-name>
+    <url-pattern>/heroAddServletMVC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroDeleteServletMVC</servlet-name>
+    <url-pattern>/heroDeleteServletMVC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroListServletMVC</servlet-name>
+    <url-pattern>/heroListServletMVC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeroUpdateServletMVC</servlet-name>
+    <url-pattern>/heroUpdateServletMVC</url-pattern>
   </servlet-mapping>
 
 </web-app>
