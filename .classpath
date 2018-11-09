@@ -31,5 +31,7 @@
 	<classpathentry kind="lib" path="D:/myeclipseWorsp/j2ee/WebRoot/WEB-INF/lib/ezmorph-1.0.3.jar"/>
 	<classpathentry kind="lib" path="D:/myeclipseWorsp/j2ee/WebRoot/WEB-INF/lib/json-lib-2.1-jdk15.jar"/>
 	<classpathentry kind="lib" path="D:/myeclipseWorsp/j2ee/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="D:/myeclipseWorsp/j2ee/WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/myeclipseWorsp/j2ee/WebRoot/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
