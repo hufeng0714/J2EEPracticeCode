@@ -12,7 +12,8 @@ public class HeroListServletMVC extends HttpServlet {
 
     public void service(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-    	response.setContentType("text/html; charset=UTF-8");
+    	//≈‰∫œEncodingFilter.java≤‚ ‘
+    	//response.setContentType("text/html; charset=UTF-8");
     	 
         int start = 0;
         int count = 5;
