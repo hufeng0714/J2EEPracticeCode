@@ -18,13 +18,14 @@
             <td>${hero.name}</td>
             <td>${hero.hp}</td>
             <td>${hero.damage}</td>
-            <td><a href="heroEditServletMVC?id=${hero.id}">edit</a></td>
-            <td><a href="heroDeleteServletMVC?id=${hero.id}">delete</a></td>
+            <td><a href="heroEditServletMVC?id=${hero.id}">编辑</a></td>
+            <td><a href="heroDeleteServletMVC?id=${hero.id}">删除</a></td>
         </tr>
     </c:forEach>
     
     <tr>
         <td colspan="6" align="center">
+        	<a href="addHero.jsp">[新增]</a>
         	<a href="?start=0">[首  页]</a>
          	<a href="?start=${pre}">[上一页]</a>
             <a href="?start=${next}">[下一页]</a>
